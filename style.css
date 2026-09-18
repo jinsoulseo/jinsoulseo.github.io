@@ -183,6 +183,13 @@ section > p { margin: 0 0 1rem; }
   font-size: 0.87rem;
 }
 
+.note {
+  display: block;
+  font-size: 0.83rem;
+  font-style: italic;
+  margin-top: 0.15rem;
+}
+
 details {
   margin-top: 0.7rem;
   font-size: 0.95rem;
