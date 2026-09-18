@@ -62,8 +62,8 @@ a:hover { border-bottom-color: var(--accent); }
 }
 
 .portrait {
-  width: 270px;
-  height: 270px;
+  width: min(380px, 78vw);
+  height: min(380px, 78vw);
   object-fit: cover;
   object-position: 50% 18%;
   border-radius: 4px;
@@ -228,5 +228,4 @@ details p {
 @media (max-width: 34rem) {
   main { padding-top: 3rem; }
   h1 { font-size: 1.95rem; }
-  .portrait { width: 210px; height: 210px; }
 }
