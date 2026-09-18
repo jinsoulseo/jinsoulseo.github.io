@@ -144,11 +144,6 @@ section > p { margin: 0 0 1rem; }
   margin-bottom: 0.2rem;
 }
 
-.jobmarket {
-  font-weight: 600;
-  color: var(--accent);
-}
-
 .group {
   font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
   font-size: 0.82rem;
@@ -186,6 +181,24 @@ section > p { margin: 0 0 1rem; }
 .jmp {
   color: var(--accent);
   font-weight: 600;
+}
+
+.status {
+  margin: 1.1rem 0 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.education {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.education li {
+  margin-bottom: 0.4rem;
+  font-size: 0.97rem;
 }
 
 details {
